@@ -21,18 +21,17 @@
 
 \documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
 \usepackage{fontawesome}
+\usepackage[dvipsnames]{xcolor}
 \begin{document}
 
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
 
-\lastupdated  % Print the Last Updated text at the top right
-
 \namesection{Varan}{Culanathan}{ % Your name
 % \urlstyle{same}\url{http://linkedin.com/vculanathan} \\ % Your website, LinkedIn profile or other web address
-\footnotesize  \faMobile \hspace{1mm} { (603)-257-5957 } \hspace{1mm}|\hspace{1mm} \faEnvelope \hspace{1mm} \href{mailto:vculanathan@umass.edu}{ vculanathan@umass.edu }\hspace{1mm}|\hspace{1mm} \faGithub \hspace{1mm} \href{https://github.com/vculanathan}{ github.com/vculanathan} \hspace{1mm}|\hspace{1mm}
-\faLinkedinSquare \hspace{1mm} \href{https://www.linkedin.com/in/vculanathan}{linkedin.com/in/vculanathan} \\% Your contact information
+\footnotesize{ \faMobile \hspace{1mm} { (978)-393-1928 } \hspace{1mm}|\hspace{1mm} \faEnvelope \hspace{1mm} \href{mailto:vculanathan@umass.edu}{ vculanathan@umass.edu }\hspace{1mm}|\hspace{1mm} \faGithub \hspace{1mm} \href{https://github.com/vculanathan}{ github.com/vculanathan} \hspace{1mm}|\hspace{1mm}
+\faLinkedinSquare \hspace{1mm} \href{https://www.linkedin.com/in/vculanathan}{linkedin.com/in/vculanathan}} \\% Your contact information
 }
 
 %----------------------------------------------------------------------------------------
@@ -51,9 +50,8 @@
 
 \descript{B.S. in Computer Science}
 \location{Expected May 2018 | Amherst, MA }
-Dean's List (All Semesters) \\
-\location{ Cum. GPA: 3.98 / 4.00 }
-\sectionspace % Some whitespace after the section
+\location{ Cumulative GPA: 3.98 / 4.00 }
+
 
 
 
@@ -66,13 +64,13 @@ Dean's List (All Semesters) \\
 %------------------------------------------------
 % Coursework
 %------------------------------------------------
-
-\section{Coursework}
-\textbullet{} Software Engineering \\
-\textbullet{} Discrete Mathematics \\
-\textbullet{} Introduction to Probability \\
-\textbullet{} Functional Programming \\
-\textbullet{} Data Structures \\
+\vspace{1mm}
+\descript{Coursework}
+Software Engineering \\
+Discrete Mathematics \\
+Introduction to Probability \\
+Functional Programming \\
+Data Structures \\
 
 
 \sectionspace % Some whitespace after the section
@@ -85,10 +83,10 @@ Dean's List (All Semesters) \\
 
 
 \location{\bf Proficient:}
-Java | Shell | Python | SQL | \LaTeX\ \\ 
+Java, Python, Bash, SQL, \LaTeX\ \\ 
 \vspace{2mm}
 \location{\bf Familiar:}
-C | Scala | HTML/CSS | Javascript \\
+C, Scala, Javascript \\
 
 
 \sectionspace % Some whitespace after the section
@@ -97,32 +95,32 @@ C | Scala | HTML/CSS | Javascript \\
 
 
 {\bf Infrastructure:}
-AWS | Ansible | Docker | Jenkins | Terraform | Teleport \\  
+AWS, Ansible, Docker, Jenkins, Terraform \\  
 {\bf Databases:}
-MongoDB | SQL \\
+MongoDB, SQL \\
 {\bf Backend:} 
-NodeJS \\
+Node.js \\
 {\bf Native:}
 Android
 
 \sectionspace % Some whitespace after the section
 
 \section{Awards}
-{\bf Course Citation \hfill 2017} \\ 
+{\bf Course Citation \hfill May 2017} \\ 
 \textit{Discrete Mathematics} \\ 
-Ranked amongst the top 15 students in a class of over 200 students\\
+Ranked \#15 in a class of 200+ students.\\
 \vspace{2mm}
-{\bf Course Citation \hfill 2016} \\ 
+{\bf Course Citation \hfill Dec 2016} \\ 
 \textit{Computer System Principles} \\ 
-Ranked \#2 in a class of over 150 students\\
+Ranked \#2 in a class of 150+ students.\\
 \vspace{2mm}
-{\bf Course Citation \hfill 2015} \\ \textit{Data Structures} \\
- Ranked \#4 in a class of over 150 students\\
+{\bf Course Citation \hfill Dec 2015} \\ \textit{Data Structures} \\
+ Ranked \#4 in a class of 150+ students.\\
  \vspace{2mm}
 
 \section{Projects} 
-\textbullet{} {\bf Minesweeper \hfill June 2016} \\ A complete version of Minesweeper with fully functioning GUI and custom art. {\it Java} \\
-\textbullet{} {\bf KeyFinder\hfill Jan 2015} \\ Control a person in a two-dimensional maze to find a hidden key. {\it Android Studio, Java} 
+{\bf Minesweeper \hfill Jun 2016} \\ A complete version of Minesweeper with fully functionial GUI and custom art. {\it Java} \\
+{\bf KeyFinder\hfill Jan 2015} \\ Control a person in a two-dimensional maze to find a hidden key. {\it Java} 
 %----------------------------------------------------------------------------------------
 
 \end{minipage} % The end of the left column
@@ -140,38 +138,39 @@ Ranked \#2 in a class of over 150 students\\
 
 \section{Work Experience}
 
-\sectionspace % Some whitespace after the section
 \runsubsection{TriNetX}
 \descript{| Software Engineering Intern}
-\location{May 2016 – Sept 2016 | Cambridge, MA}
+\location{May 2017 – Sep 2017 | Cambridge, MA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
-\item Improved and increased automation of appliance provisioning process.
+\item Worked with the Infrastructure Team to develop automation and deployment utilities using Python, Bash, Ansible, Jenkins, and AWS Lambda.
+\item Improved and increased automation of appliance provisioning process, resulting in a more defensive design with greater configuration options.
 \item Created a set of utility scripts to obtain the health status of appliances based on network connectivity, port connectivity, and NIC bond configuration.
-\item Performed ad-hoc tasks to improve monitoring and maintenance of AWS. 
-\item Refactored codebase and helped create a custom Sonarqube profile to maintain cleanliness of future code.
+\item Performed ad-hoc tasks to improve monitoring and maintenance of AWS.
+\item Assembled server hardware and provisioned servers into appliances for shipment to healthcare organization sites
 \end{tightitemize}
 \sectionspace % Some whitespace after the section
 
-\runsubsection{UMass Amherst}
-\descript{| Teaching Assistant / Grader}
-\location{Sept 2016 – Jan 2017 | Amherst, MA} 
-\begin{tightitemize}
-\item Help lead discussion sections with other TAs and meet weekly with Professor to modify and improve discussion sections to suit students’ needs
-\item Grade homework and project submissions by students
-\end{tightitemize}
-
-\sectionspace % Some whitespace after the section
 \runsubsection{TriNetX}
 \descript{| Implementation Analyst Intern}
-\location{May 2016 – Sept 2016 | Cambridge, MA}
+\location{May 2016 – May 2017 | Cambridge, MA}
 \begin{tightitemize}
+\item Worked with the Client Services and Software Engineering Team to assist in the provider site onboarding process and add customer-requested features using SQL and Java.
 \item Designed and implemented feature to export audit and query history pages to CSVs. 
-\item Wrote and Tested SQL Scripts to assess the cleanliness of healthcare organizations’ databases.
+\item Wrote and tested SQL Scripts to assess the cleanliness of healthcare organizations’ databases.
 \item Completed data refreshes, data ingestion, and data mapping of healthcare organizations' data.
 \end{tightitemize}
 
 \sectionspace % Some whitespace after the section
+\runsubsection{UMass Amherst}
+\descript{| Teaching Assistant }
+\location{Sep 2016 – Jan 2017 | Amherst, MA} 
+\begin{tightitemize}
+\item Helped teach the introductory computer science course offered at UMass.
+\item Led discussion sections with other TAs and met weekly with the professor to modify and improve discussion sections to suit students’ needs.
+\item Graded homework and project submissions by students.
+\end{tightitemize}
+
 
 %------------------------------------------------
 
@@ -183,26 +182,25 @@ Ranked \#2 in a class of over 150 students\\
 
 \section{Research}
 
-\runsubsection{RBR Labratory}
+\runsubsection{RBR Laboratory}
 \descript{| Research Assistant}
 
-\location{Oct 2015 – May 2016 | Ithaca, NY}
+\location{Oct 2015 – May 2016 | Amherst, MA}
 \begin{tightitemize}
 \item Worked under Professor \textbf{\href{http://rbr.cs.umass.edu/shlomo/}{Shlomo Zilberstein}} to investigate the methodology used to calculate the impact factor of a journal.
-\item Developed efficient crowd-sourcing techniques to gather a dataset of ~1000 publications for analysis
-\item Created a tool to calculate the impact factor of any given year within a 15 year range and the magnitude of change if the publication date of the papers in the subset was delayed.
-\item Publication submitted
+\item Developed efficient crowd-sourcing techniques to gather a dataset of over 1000 publications from a set of journals for analysis.
+\item Created a tool to calculate the impact factor of a journal for any given year and perform basic data analytics to measure how it would be altered in certain situations.
 \end{tightitemize}
 \sectionspace % Some whitespace after the section
 
 %------------------------------------------------
 
-\runsubsection{IESL Labratory}
+\runsubsection{IESL Laboratory}
 \descript{| Research Assistant}
 
-\location{Oct 2015 – Sept 2016 | Amherst, MA}
+\location{Oct 2015 – Sep 2016 | Amherst, MA}
 \begin{tightitemize}
-\item Worked under Professor \textbf{\href{https://people.cs.umass.edu/~mccallum/}{Andrew McCallum}} to develop an efficient crowd-sourcing method to extract large lists of information from CVs
+\item Worked under Professor \textbf{\href{https://people.cs.umass.edu/~mccallum/}{Andrew McCallum}} to develop an efficient crowd-sourcing method to extract large lists of information from CVs.
 \item Designed a pipeline to obtain a knowledge base of 5000+ professors and graduate students to be used in determining conflict of interest for peer reviews.
 \item Research was accepted by Massachusetts Statewide Undergraduate Research Conference (April 2016).
 \end{tightitemize}

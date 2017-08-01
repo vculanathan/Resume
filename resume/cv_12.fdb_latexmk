@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1501454833 "cv_12.tex" "cv_12.pdf" "cv_12" 1501454838
+["pdflatex"] 1501554361 "cv_12.tex" "cv_12.pdf" "cv_12" 1501554367
   "/etc/texmf/web2c/texmf.cnf" 1499858089 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -64,12 +64,12 @@
   "/usr/share/texmf/tex/latex/tipa/t3enc.def" 1414244106 26483 c461a68c34040cb0d96c43e86c012a6d ""
   "/usr/share/texmf/web2c/texmf.cnf" 1471618383 31348 3c11c993a1d7e4662292855f9f7c8e1b ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1499858358 3545919 6235df1c71bcb870256b5b1ffd8b6da0 ""
-  "cv_12.aux" 1501454837 1384 902e74a2fae787c8fbfa25ae368a61a5 ""
-  "cv_12.out" 1501454837 424 5c0ce18c26893caabe873f0b36f5520c ""
-  "cv_12.tex" 1501454786 9002 37e49224dddea995846b55eaaa11423c ""
-  "deedy-resume.cls" 1501441149 5844 1d49732a22e6f1d74dee77ca5efc84ba ""
+  "cv_12.aux" 1501554366 1301 cac7a25b07373414632ad91662682d3e ""
+  "cv_12.out" 1501554366 379 a83e4625682d9b04159ec4ff83856d59 ""
+  "cv_12.tex" 1501552505 9100 2ba6fa4d5714c576c9857b37e80bd9fc ""
+  "deedy-resume.cls" 1501553435 5846 732cb992c3c0335b86b841665286d92c ""
   (generated)
-  "cv_12.out"
   "cv_12.pdf"
-  "cv_12.aux"
   "cv_12.log"
+  "cv_12.aux"
+  "cv_12.out"
